@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -9,57 +8,3 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    padding: 20px 35px;
-    background-color: rgba(20, 98, 119, 0.8);
-    display: flex;
-    justify-content: space-between;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-image: url(../images/hero-image-portfolio.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 60%;
-    z-index: 9999;
-}
-
-header h4 {
-    font-weight: bold;
-    font-size: 18px;
-    color: rgb(240, 240, 240);
-    margin: 0;
-    text-shadow: 0 0 10px rgba(20, 98, 105, 1);
-}
-
-header a {
-    text-decoration: none;
-}
-
-header nav {
-    margin: 10px 0;
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-header nav ul li a {
-    padding: 10px 15px;
-    font-weight: bold;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-}
-
-footer {
-    background: rgba(41, 98, 78, 0.8)
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
