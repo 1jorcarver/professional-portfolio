@@ -1,10 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    color: rgba(41, 98, 78, 0.8);
+    background-color: #3cb371;
     font-family: Arial, Helvetica, sans-serif;
 }
 
