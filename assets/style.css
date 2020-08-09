@@ -7,6 +7,7 @@
 :root {
     --primary-color: black;
     --secondary-color: lightgrey;
+    --tertiary-color: gray; 
 }
 
 body {
@@ -65,7 +66,7 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
-  }
+}
 
 /* footer style starts */
 footer {
@@ -112,27 +113,28 @@ footer nav ul li a:hover {
     color: var(--primary-color);
     border-radius: 15px;
     text-shadow: none;
-  }
+}
 
 /* hero style starts */
 .hero {
     background-image: url("./images/hero-design.jpg");
     background-size: cover;
     background-attachment: local;
-    background-position: 80%;
+    background-position: 60%;
     display: inside;
     justify-content: right;
     align-items: flex-end;
+    overflow: auto;
 }
 
 .hero-img {
-    border: solid 3px var(--secondary-color);
-    padding: 0px;
+    float: right;
     margin: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.hero h4 {
-    font-size: 12px;
-    margin-bottom: aut0;
+.hero h3 {
+    padding: 20px 35px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
