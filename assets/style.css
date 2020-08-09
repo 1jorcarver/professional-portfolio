@@ -14,6 +14,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+section {
+    padding: 40px;
+}
+
+/* header style starts */
 header {
     color: var(--secondary-color);
     padding: 5px 15px;
@@ -62,14 +67,72 @@ header nav ul li a:hover {
     text-shadow: none;
   }
 
-  /* hero style starts */
-  .hero {
-    background-image: url("assets/images/hero-design.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
+/* footer style starts */
+footer {
+    color: var(--primary-color);
+    width: 100%;
+    padding: 45px 35px;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+}
+
+footer h1 {
+    font-weight: bold;
+    font-size: 45px;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+footer nav {
+    margin: 7px 0;
+}
+
+footer nav ul {
+    display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+/* hero style starts */
+.hero {
+    background-image: url("./images/hero-design.jpg");
+    background-size: cover;
+    background-attachment: local;
+    background-position: 80%;
+    display: inside;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.hero-img {
+    border: solid 3px var(--secondary-color);
+    padding: 0px;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero h4 {
+    font-size: 12px;
+    margin-bottom: aut0;
 }
