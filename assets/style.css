@@ -1,5 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #3cb371;
+    color: #3cb371;
 }
 
+header {
+    padding: 20px 35px;
+    background-color: #399ab2;
+  }
