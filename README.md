@@ -14,6 +14,9 @@ A website which demonstrates my abilities as a web developer.
 - App images are linked to the developed applications
 - Mobile responsive
 
+## Finished display of website
+![screenshot of website](./images/portfolio-website-img.png)
+
 ## Website
  https://1jorcarver.github.io/professional-portfolio/
 
