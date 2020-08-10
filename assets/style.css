@@ -94,6 +94,7 @@ header nav ul li a:hover {
     justify-content: right;
     align-items: flex-end;
     overflow: auto;
+    padding: 40px;
 }
 
 .hero-img {
@@ -117,8 +118,50 @@ header nav ul li a:hover {
     width: 100%;
     margin: 0;
 }
+/* about me section ends */
 
-/* "contact me" starts */
+/* work section starts */
+.work-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.work-grid-container-rb {
+    background: #448877;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 90px 90px;
+    border: 10px dashed var(--secondary-color);
+    justify-content: space-evenly;
+    color: none;
+}
+
+.work-grid-container-js {
+    background: #dce8e3;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 90px 90px;
+    border: 10px dashed var(--secondary-color);
+    justify-content: space-evenly;
+    color: none;
+}
+
+.work-grid-container-node {
+    background: #dce8e3;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 90px 90px;
+    border: 10px dashed var(--secondary-color);
+    justify-content: space-evenly;
+    color: none;
+}
+/* "work" section ends */
+
+/* "contact me" section starts */
 .contact-me {
     color: var(--primary-color);
     width: 100%;
@@ -164,3 +207,4 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
   }
+/* "contact me" section ends */
