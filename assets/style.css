@@ -128,7 +128,7 @@ header nav ul li a:hover {
 }
 
 .work-grid-container-rb {
-    background: #448877;
+    background-image: url("./images/hero-design.jpg");
     width: 100%;
     display: grid;
     grid-template-columns: 60px 60px;
