@@ -163,18 +163,8 @@ header nav ul li a:hover {
 
 /* "contact me" section starts */
 .contact-me {
-    color: var(--primary-color);
-    width: 100%;
-    padding: 45px 35px;
     display: flex;
     justify-content: space-between;
-}
-
-.contact-me h1 {
-    font-weight: bold;
-    font-size: 45px;
-    color: var(--primary-color);
-    margin: 0;
 }
 
 .contact-me a {
@@ -183,20 +173,18 @@ header nav ul li a:hover {
 }
 
 .contact-me nav {
-    margin: 7px 0;
+    margin: 50px 50px;
 }
 
 .contact-me nav ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
 .contact-me nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
+    padding: 30px 40px;
+    font-weight: auto;
     font-size: 1.55vw;
     text-shadow: 0 0 10px var(--tertiary-color);
 }
@@ -237,7 +225,7 @@ header nav ul li a:hover {
     }
 
 }
-}
+
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
