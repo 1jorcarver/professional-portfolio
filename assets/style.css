@@ -105,7 +105,8 @@ header nav ul li a:hover {
 .hero h2 {
     padding: 10px 10px;
     font-weight: bolder;
-    font-size: 22px; 
+    font-size: 22px;
+    color: white;
     box-shadow: 0 0 10px var(--tertiary-color);
 }
 /* hero style ends */
@@ -121,42 +122,45 @@ header nav ul li a:hover {
 /* about me section ends */
 
 /* work section starts */
-.work-grid-wrapper {
+.work-grid {
     display: flex;
-    width: 100%;
+    grid-gap: 30px;
     justify-content: center;
 }
 
 .work-grid-container-rb {
-    background-image: url("./images/rb-web-pic.png");
-    width: 100%;
-    display: grid;
-    grid-template-columns: 60px 60px;
-    grid-template-rows: 90px 90px;
-    border: 10px dashed var(--secondary-color);
+    background: #dce8e3;
+    width: 210px;
+    border: 5px dashed var(--secondary-color);
     justify-content: space-evenly;
+    text-align: center;
     color: none;
 }
 
 .work-grid-container-js {
     background: #dce8e3;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 60px 60px;
-    grid-template-rows: 90px 90px;
-    border: 10px dashed var(--secondary-color);
+    width: 210px;
+    border: 5px dashed var(--secondary-color);
     justify-content: space-evenly;
+    text-align: center;
     color: none;
 }
 
-.work-grid-container-node {
+.work-grid-container-gp {
     background: #dce8e3;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 60px 60px;
-    grid-template-rows: 90px 90px;
-    border: 10px dashed var(--secondary-color);
+    width: 210px;
+    border: 5px dashed var(--secondary-color);
     justify-content: space-evenly;
+    text-align: center;
+    color: none;
+}
+
+.work-grid-container-api {
+    background: #dce8e3;
+    width: 210px;
+    border: 5px dashed var(--secondary-color);
+    justify-content: space-evenly;
+    text-align: center;
     color: none;
 }
 /* "work" section ends */
