@@ -163,6 +163,16 @@ header nav ul li a:hover {
     text-align: center;
     color: none;
 }
+
+.work-grid-container-project2 {
+    background: #dce8e3;
+    width: 210px;
+    border: 5px dashed var(--secondary-color);
+    justify-content: space-evenly;
+    text-align: center;
+    color: none;
+}
+
 /* "work" section ends */
 
 /* "contact me" section starts */
